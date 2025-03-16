@@ -1,5 +1,9 @@
 
 ## FemCare-Hub 
+The FemCare Hub is a comprehensive platform designed to empower underprivileged women by providing them with accessible tools for managing their physical, mental, and menstrual health. It aims to bridge the gap in healthcare access and awareness, fostering a community that supports holistic well-being and Bridging the gap in healthcare for underprivileged women. 
+
+### Frontend Techstack used
+Html, Css, Javascript 
 ### Mental Health 
 1. Mood Tracking & Sentiment Analysis
 Moodscope API
@@ -17,5 +21,5 @@ This  BMI calculation API using the UtilMeta framework.
 
 
 <img src="FemCare-Hub images\FemCare-Hub main image.jpg">
-Frontend Techstack used
+
 
