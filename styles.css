@@ -306,25 +306,88 @@ li span {
     width: 20.5vw;
 }
 
-/* FOOTER CSS */
-
+/* FOOTER */
 .footer {
-    height: 100px;
+    background-color: #2f2f2f;
+    color: #ffffff;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 20px;
+    flex-wrap: wrap; /* Ensure responsiveness */
+    justify-content: space-between; /* Even spacing */
+    align-items: flex-start; /* Align items to the top */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-.footerlinks a {
-    margin: 20px;
-    font-size: 16px;
-    font-weight: 600;
-    color: #000;
+/* Footer sections */
+.footer-brand, 
+.footer-links, 
+.footer-contact, 
+.footer-social {
+    flex: 1;
+    min-width: 250px;  /* Prevent items from collapsing */
+    margin: 10px;
 }
 
-.footerlinks .mainlink {
+/* Footer headings */
+.footer h2, .footer h3 {
     color: #e0501b;
+    margin-bottom: 10px;
+}
+
+/* Footer links */
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 8px 0;
+}
+
+.footer-links ul li a {
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+    text-decoration: underline;
+    color: #e0501b;
+}
+
+/* Social media icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 170px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover img {
+    transform: scale(1.2);
+}
+
+/* Footer bottom */
+.footer-bottom {
+    text-align: center;
+    padding: 15px;
+    background-color: #222;
+    font-size: 14px;
+    margin-top: 20px;
 }
 
 
