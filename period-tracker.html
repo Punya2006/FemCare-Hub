@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Period Tracker | FemCare Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <button id="menstrual-health" class="top-center-button">Menstrual Health</button>
+    </nav>
+    <div class="tracker-container" id="tracker-section" style="display: none;">
+        <h1>Period Tracker</h1>
+        <form id="period-form">
+            <label for="start-date">Start Date:</label>
+            <input type="date" id="start-date" required>
+            
+            <label for="end-date">End Date:</label>
+            <input type="date" id="end-date" required>
+            
+            <label>Flow:</label>
+            <input type="radio" name="flow" value="low"> Low
+            <input type="radio" name="flow" value="medium"> Medium
+            <input type="radio" name="flow" value="high"> High
+            
+            <label>Mood:</label>
+            <select id="mood">
+                <option value="happy">Happy</option>
+                <option value="normal">Normal</option>
+                <option value="stressed">Stressed</option>
+                <option value="sad">Sad</option>
+                <option value="anxious">Anxious</option>
+            </select>
+            
+            <button type="submit">Predict Your Next Period</button>
+        </form>
+        <p id="prediction-result"></p>
+    </div>
+    
+    <script>
+        document.getElementById("menstrual-health").addEventListener("click", function() {
+            document.getElementById("tracker-section").style.display = "block";
+        });
+    </script>
+</body>
+</html>
