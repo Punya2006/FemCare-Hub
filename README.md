@@ -4,6 +4,7 @@ The FemCare Hub is a comprehensive platform designed to empower underprivileged 
 
 ### Frontend Techstack used
 Html, Css, Javascript 
+### Backend /API used 
 ### Mental Health 
 1. Mood Tracking & Sentiment Analysis
 Moodscope API
