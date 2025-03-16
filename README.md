@@ -14,8 +14,5 @@ The Egg Timer is an open-source menstrual tracker that provides a calendar, emai
 
 
 <img src="FemCare-Hub images\FemCare-Hub main image.jpg">
-
-# FemCare-Hub 
-<img src="FemCare-Hub images\FemCare-Hub main image.jpg">
 Frontend Techstack used
 
